@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="robots" content="noindex, nofollow">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lahjojen Maailma</title>
+	<link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Onest:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Placeholder for the dynamically loaded header -->
+    <header class="header" id="header-top-of-the-page">
+        <nav class="header-main-menu">
+            <a href="index.html">
+                <img class="header-logo-with-text" alt="Lahjojen Maailma logo" src="./assets/images/Lahjojen maailma logo with text.svg"/>
+                <img class="header-logo" alt="Lahjojen Maailma logo" src="./assets/images/Lahjojen maailma logo tight fit.svg"/>
+            </a>
+            <div class="nav-container">   
+                <ul class="header-menu-navigation">
+                    <li class="header-menu-item"><a href="products.html">Gift Search</a></li>
+                    <li class="header-menu-item"><a href="blog.html">Ideas</a></li>
+                    <li class="header-menu-item"><a href="occassion.html">Christmas</a></li>
+                    <li class="header-menu-item"><a href="featured.html">Birthday</a></li>
+                    <div class="language-selector">
+                        <button class="language-button">Language</button>
+                        <ul class="header-switch-language-dropdown">
+                            <li class="header-menu-item active">English</li>
+                            <li class="header-menu-item">Suomi</li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+
+            <!-- Mobile nav -->
+            <div class="mobile-menu">
+                <div class="mobile-menu-toggle">
+                    <svg class="hamburger-menu" xmlns="http://www.w3.org/2000/svg" fill="#400702" viewBox="0 0 50 50">
+                        <rect x="5" y="7.5" width="40" height="5"/>
+                        <rect x="5" y="22.5" width="40" height="5"/>
+                        <rect x="5" y="37.5" width="40" height="5"/>
+                    </svg>
+                </div>
+                <div class="mobile-menu-items">   
+                    <ul class="mobile-menu-list">
+                        <li class="header-menu-item"><a href="products.html">Gift Search</a></li>
+                        <li class="header-menu-item"><a href="blog.html">Ideas</a></li>
+                        <li class="header-menu-item"><a href="occassion.html">Christmas</a></li>
+                        <li class="header-menu-item"><a href="featured.html">Birthday</a></li>
+                        <div class="language-selector">
+                            <button class="language-button">Language</button>
+                            <ul class="header-switch-language-dropdown">
+                                <li class="header-menu-item active">English</li>
+                                <li class="header-menu-item">Suomi</li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </div>            
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="container spacer">
+            <div class="filter-container">
+                <input type="text" id="search-bar" placeholder="Search for products...">
+                <div class="filter-options">
+                    <label><input type="checkbox" class="category-filter" value="Apparel"> Apparel</label>
+                    <label><input type="checkbox" class="category-filter" value="Accessories"> Accessories</label>
+                    <label><input type="checkbox" class="category-filter" value="Home"> Home</label>
+                </div>
+            </div>
+        
+            <div class="product-list" id="product-list">
+                <!-- Products will be dynamically rendered here -->
+            </div>
+    </main>
+
+    <!-- Placeholder for the dynamically loaded footer -->
+    <footer class="footer">
+        <div class="footer-content-area">
+            <a href="index.html"><img class="footer-logo" alt="Lahjojen Maailma logo" src="./assets/images/Lahjojen maailma logo with text white.svg"></a>
+            <div class="footer-content">
+                <nav class="footer-menu">
+                    <ul class="footer-menu-items">
+                        <li class="footer-link fl1"><a href="about.html">About us</a></li>
+                        <li class="footer-link fl2"><a href="feedback.html">Feedback & Suggestions</a></li>
+                        <li class="footer-link fl3"><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li class="footer-link fl4"><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                    </ul>
+                </nav>
+                <p class="email-text">info@lahjojenmaailma.com</p>
+                <p class="follow-us-text">Follow Us</p>
+                <div class="footer-social-media-icons">
+                    <div class="social-media-icon-wrapper">
+                        <div class="social-media-icon"></div>
+                    </div>
+                    <div class="social-media-icon-wrapper">
+                        <div class="social-media-icon"></div>
+                    </div>
+                    <div class="social-media-icon-wrapper">
+                        <div class="social-media-icon"></div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Lahjojen Maailma <span id="year"></span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to the JavaScript file -->
+    <script type="text/javascript" src="./assets/js/main-script.js"></script>
+</body>
+</html>
