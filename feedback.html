@@ -65,15 +65,42 @@
 
     <main>
         <div class="container">
-            <pre>
-
-                
-                Feedback & Suggestions
-
-                Do you want to send feedback or have some suggestions? Contact us!
-
-
-            </pre>
+            <section class="feedback">
+                <div class="feedback-form-container">
+                    <h2>Feedback and Suggestions</h2>
+                    <form>
+                        <div class="feedback-form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name">
+                        </div>
+            
+                        <div class="feedback-form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your email">
+                        </div>
+            
+                        <div class="feedback-form-group">
+                            <label for="rating">How would you rate your experience?</label>
+                            <select id="rating" name="rating">
+                                <option value="">Select a rating</option>
+                                <option value="excellent">Excellent</option>
+                                <option value="good">Good</option>
+                                <option value="average">Average</option>
+                                <option value="poor">Poor</option>
+                            </select>
+                        </div>
+            
+                        <div class="feedback-form-group">
+                            <label for="feedback">Your Feedback</label>
+                            <textarea id="feedback" name="feedback" placeholder="Share your thoughts or suggestions..."></textarea>
+                        </div>
+            
+                        <div class="feedback-form-group">
+                            <input type="submit" value="Submit Feedback">
+                        </div>
+                    </form>
+                </div>
+            </section>
         </div>
     </main>
 

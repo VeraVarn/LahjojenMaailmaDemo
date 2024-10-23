@@ -58,12 +58,12 @@
                         </div>
                     </ul>
                 </div>
-            </div>            
+            </div>          
         </nav>
 
     </header>
 
-    <main>
+<!--    <main>
         <div class="container spacer">
             <div class="filter-container">
                 <input type="text" id="search-bar" placeholder="Search for products...">
@@ -75,8 +75,30 @@
             </div>
         
             <div class="product-list" id="product-list">
+            </div>
+    </main>-->
+    <main>
+        <div class="container spacer product-container">
+            <div class="filter-container">
+                <input type="text" id="search-bar" placeholder="Search for products...">
+                <div class="filter-options">
+                    <label><input type="checkbox" class="category-filter" value="Apparel"> Apparel</label>
+                    <label><input type="checkbox" class="category-filter" value="Accessories"> Accessories</label>
+                    <label><input type="checkbox" class="category-filter" value="Home"> Home</label>
+                </div>
+                <!-- Price filter sliders -->
+                <div class="price-filter">
+                    <label for="min-price">Min Price:</label>
+                    <input class="indent" type="number" id="min-price" value="0" min="0" placeholder="Min Price">
+                    <label for="max-price">Max Price:</label>
+                    <input class="indent" type="number" id="max-price" value="400" min="0" placeholder="Max Price">
+                </div>
+            </div>
+    
+            <div class="product-list" id="product-list">
                 <!-- Products will be dynamically rendered here -->
             </div>
+        </div>
     </main>
 
     <!-- Placeholder for the dynamically loaded footer -->
