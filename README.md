@@ -14,7 +14,7 @@ Worry no more! **Lahjojen Maailma** is here to help you find meaningful gifts wi
 
 Discover tailored gift suggestions with customizable filters on this e-commerce platform. Lahjojen Maailma showcases Finnish products to meet all your gift-giving needs. Our goal with this project was to create a visually appealing, user-friendly, and intuitive interface while exploring features for future scalability.
 
-This project is a demo developed during ICT Camp and is currently under development to transform into a fully-fledged business dedicated to helping gift-givers find the perfect present. !!!! Live demo can be visited here. !!!!
+This project is a demo developed during ICT Camp and is currently under development to transform into a fully-fledged business dedicated to helping gift-givers find the perfect present. [Live demo can be visited here](https://iridescent-otter-155402.netlify.app/).
 
 ## Collaborators
 
@@ -79,7 +79,7 @@ We ensured everything aligns with our learning goals set in the beginning of the
 - **Trello**: Project management
 - **Figma**: UI design
 - **Photoshop/Illustator/Canva**: Assets, product pictures, mockups and project pitch slides
-- **ChatCPT**: Spell checking, assistance in ideation and research, coding (JavaScript) and fixing bugs
+- **ChatGPT**: Proofreading and referencing, assistance in ideation and research, coding (JavaScript) and fixing bugs
 
 ## Reflection
 
